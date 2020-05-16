@@ -6,7 +6,7 @@ void main()
      char hex[10];
  clrscr();
        for(i=0;num>0;i++)
-       { //temp=0;
+       { 
 	 temp=num%16;
 		if(temp<10)
 		{
