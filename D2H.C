@@ -16,7 +16,6 @@ void main()
 		{
 		     hex[i]=temp+55;
 		}
-
 	  num=num/16;
        }
 
