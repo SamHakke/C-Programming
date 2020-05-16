@@ -2,7 +2,7 @@
 #include<stdio.h>
 #include<conio.h>
 void main()
-{    int num=67,oct=0,base=1,temp;
+{    int num=67,dec=0,base=1,temp;
 
  clrscr();
 	temp=num;
@@ -11,11 +11,11 @@ void main()
 	 int l_digit=temp%10;
 	 temp=temp/10;
 
-	 oct+=l_digit*base;
+	 dec+=l_digit*base;
 	 base=base*8;
 	}
 
-	printf("Octal Equivalent : %d ",oct);
+	printf("Decimal Equivalent : %d ",dec);
 
  getch();
 }
