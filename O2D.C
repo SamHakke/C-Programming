@@ -16,6 +16,5 @@ void main()
 	}
 
 	printf("Decimal Equivalent : %d ",dec);
-
  getch();
 }
